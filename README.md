@@ -35,9 +35,9 @@ Paparazzo.js is used because all browsers cannot show a direct MJPEG stream. The
 # Setup
 
 
-1. Install [Raspberry PI](#toc_5)
+1. Install [Raspberry PI](#raspberry-pi)
 
-2. Install [web server](#toc_6)
+2. Install [web server](#server-setup)
 
 3. Happy streaming
 
