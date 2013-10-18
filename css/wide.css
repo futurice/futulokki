@@ -1,0 +1,151 @@
+.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.logos-1 {
+    display:none;
+    visibility: hidden;
+}
+
+.intro-container {
+    float:left;
+}
+
+.description-box {
+    width: 300px;
+}
+
+.short-description {
+    display:none;
+    visibility: hidden;
+}
+
+.content-container {
+    float:left;
+    margin-left: 50px;
+}
+
+.logos {
+    position:relative;
+}
+
+.logos .logo {
+    position:absolute;
+    z-index:2;
+}
+
+.logos .logo1 {
+    top:230px;
+    left:0;
+}
+
+.logos .logo2 {
+    top:330px;
+    left:80px;
+}
+
+.logos .logo3 {
+    top:20px;
+    left: 350px;
+}
+
+.speech-bubbles {
+    position:relative;
+    margin-left:80px;
+}
+
+.speech-bubble {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    text-transform: none;
+    font-size: 30px;
+    width: 210px;
+    height: 210px;
+    padding: 50px 0 0 40px;
+    position:absolute;
+    font-weight: normal;
+}
+
+.speech-bubble .tweet-container {
+    width: 160px;
+    height: 140px;
+    text-align: center;
+    position:relative;
+}
+
+.speech-bubble .seagull {
+    position: absolute;
+    top: -95px;
+    left: -80px;
+}
+
+.speech-bubble .tweet {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.speech-bubble .tweet-time {
+    width: 100%;
+    font-size: 24px;
+}
+
+.speech-bubble-info {
+    text-transform: none;
+    color: #aaa;
+    font-size: 13px;
+    position:absolute;
+    width: 160px;
+    top:25px;
+    text-align: center;
+}
+
+.speech-bubble .twitter-logo-small {
+    visibility: hidden;
+    display: none;
+}
+
+.hashtag-tweets {
+    top:10px;
+    left: 30px;
+    background:url("../img/speech-bubble-1.png") no-repeat;
+}
+
+.channel-tweets {
+    top: 50px;
+    left: 350px;
+    background:url("../img/speech-bubble-2.png") no-repeat;
+}
+
+.webcam-container {
+    position: relative;
+}
+
+.webcam-title {
+    position:absolute;
+    bottom:20px;
+    left:40px;
+}
+
+.webcam {
+    margin-top: 300px;
+    margin-left: 80px;
+    width: 540px;
+    height: 540px;
+    overflow:hidden;
+    -webkit-border-radius: 270px;
+    -moz-border-radius: 270px;
+    border-radius: 270px;
+    background: #E6F4F5;
+    border: 10px solid white;
+    position: relative;
+}
+
+.camera-image {
+    margin-left: -85px; /* Center the image at the center of the circle */
+    -webkit-border-radius: 270px;
+    -moz-border-radius: 270px;
+    border-radius: 270px;
+}

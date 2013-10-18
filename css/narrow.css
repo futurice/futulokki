@@ -1,0 +1,130 @@
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 10px 50px 40px;
+}
+
+.logos-2 {
+    display:none;
+    visibility: hidden;
+}
+
+.intro-container {
+    padding: 0 50px 0 30px;
+}
+
+.description-box {
+    margin-bottom:40px;
+    margin-top:50px;
+}
+
+.intro-container .long-description {
+    display:none;
+    visibility: hidden;
+}
+
+.speech-bubble {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    text-transform: none;
+    font-size: 20px;
+    height: 130px;
+    width: 560px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    position: relative;
+    font-weight: normal;
+}
+
+.hashtag-tweets {
+    background: url("../img/speech-bubble-4.png") no-repeat;
+    margin-bottom:0;
+}
+
+.channel-tweets {
+    background: url("../img/speech-bubble-3.png") no-repeat;
+}
+
+.speech-bubble .tweet-container {
+    height: 80px;
+    width: 480px;
+    padding-left: 30px;
+}
+
+.speech-bubble-info:visited {
+    color:#aaa;
+}
+
+.speech-bubble-info {
+    text-transform: none;
+    color: #aaa;
+    font-size: 13px;
+    position:absolute;
+    width: 530px;
+    bottom: 45px;
+    text-align: right;
+}
+
+.speech-bubble .twitter-logo-small {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.logos {
+    position:relative;
+}
+
+.logos .logo {
+    position: absolute;
+}
+
+.logos .logo1 {
+    top:100px;
+    left:40px;
+}
+
+.logos .logo2 {
+    top:180px;
+    left:80px;
+}
+
+.logos .logo3 {
+    top:10px;
+    left: 470px;
+}
+
+.tweet {
+    word-wrap: break-word;
+}
+
+.webcam-container {
+    margin-top: 50px;
+    position: relative;
+}
+
+.webcam-title {
+    position:absolute;
+    top:-50px;
+    text-align: center;
+    width: 550px;
+}
+
+.webcam {
+    width: 540px;
+    height: 540px;
+    overflow:hidden;
+    background: #E6F4F5;
+    border: 10px solid white;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
+    position: relative;
+}
+
+.camera-image {
+    margin-left: -85px; /* Center the image at the center of the circle */
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
+}

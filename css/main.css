@@ -1,0 +1,184 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/* main */
+
+body, html  {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    background: url("../img/sky-rainbow-light-small.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 3em;
+    text-transform: lowercase;
+    color:#e63b7a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:inherit;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.main-header {
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+.main-header .first-name {
+    font-size: 3.5em;
+}
+
+.main-header .last-name {
+    font-size: 1.5em;
+    text-align: right;
+    margin-right:10px;
+    margin-top: -30px;
+}
+
+.follow-twitter {
+    margin: 30px 0 30px 0;
+    position:relative;
+    color: white;
+    background: #aaa;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 50px;
+    font-size: 50px;
+    width: 280px;
+    line-height: 55px;
+    vertical-align: middle;
+    behavior: url("PIE.htc");
+}
+
+.follow-twitter .twitter-logo {
+    float:left;
+    position:absolute;
+    bottom:0;
+    left: -35px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.timeago {
+    padding-top: 5px;
+    display: block;
+}
+
+.away-message {
+    margin-top: 200px;
+    margin-left: 170px;
+    width: 200px;
+    text-align: center;
+}
+
+.seagull-blue {
+    position:absolute;
+    top: 100px;
+    left: 80px;
+}
