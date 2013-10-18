@@ -1,4 +1,4 @@
-Warning: This guide might contain some errors since some stuff has been censored out. Also domain names have been changed.
+Warning: This guide might contain some errors since some stuff has been censored out. Also domain names have been changed. Some parts of this project are a bit "hacky", so beware!
 
 Web architecture
 ----------------
